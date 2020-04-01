@@ -17,6 +17,9 @@ git shortlog --"versoes"
 git show "resh" => detalha o que foi feito
 
 git diff => mostra a modificação antes do add ou commit /Tambêm tem alterações
+
+git checkout nome-do-arquivo =>Retorna o arquivo para antes da modificação
+git reset HEAD => retira o arquivo da fila para commit
 ---------------------------------------------------------------------------------------------------------------------
 obs para o editor VIM
 
