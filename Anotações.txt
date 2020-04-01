@@ -1,0 +1,27 @@
+git congig --global
+git config --list
+
+git init => comando para o git comecar a visualizar as mudancas nesse diretorio
+
+git status
+
+git add . => todos os arquivos
+git add nome-do-arquivo
+
+git commit -m "Mensagem" => cria uma imagem dos arquivos do repositorio
+
+git log => visualizar as versoes, que arquivos sofreram alteracoes / PS: pode ser seguido de tipos Ex: git log --decorate
+git shortlog --"versoes"
+
+git show "resh" => detalha o que foi feito
+
+git diff => mostra a modificação antes do add ou commit /Tambêm tem alterações
+---------------------------------------------------------------------------------------------------------------------
+obs para o editor VIM
+
+vim nome-arqivo-extensao => abrir o arquivo no vim
+i => entrar no modo de insert
+esc => sair do insert
+; + w + => vai escrever, salvar e sair
+---------------------------------------------------------------------------------------------------------------------
+
