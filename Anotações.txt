@@ -9,6 +9,7 @@ git add . => todos os arquivos
 git add nome-do-arquivo
 
 git commit -m "Mensagem" => cria uma imagem dos arquivos do repositorio
+git commit -am "Mensagem" => Quando um arquivo ja existe
 
 git log => visualizar as versoes, que arquivos sofreram alteracoes / PS: pode ser seguido de tipos Ex: git log --decorate
 git shortlog --"versoes"
