@@ -1,4 +1,4 @@
-git congig --global
+ git congig --global
 git config --list
 
 git init => comando para o git comecar a visualizar as mudancas nesse diretorio
@@ -12,14 +12,24 @@ git commit -m "Mensagem" => cria uma imagem dos arquivos do repositorio
 git commit -am "Mensagem" => Quando um arquivo ja existe
 
 git log => visualizar as versoes, que arquivos sofreram alteracoes / PS: pode ser seguido de tipos Ex: git log --decorate
+git log --author="Ulisses"
 git shortlog --"versoes"
+git shortlog -sn
+
 
 git show "resh" => detalha o que foi feito
 
 git diff => mostra a modificação antes do add ou commit /Tambêm tem alterações
+git diff --name-only => lista os arquivos modificados
 
 git checkout nome-do-arquivo =>Retorna o arquivo para antes da modificação
-git reset HEAD => retira o arquivo da fila para commit
+
+git reset HEAD nome-do-arquivo => retira o arquivo da fila para commit
+git reset --soft "resh do commit anterior" - Retorna o arquivo para a parte do commit
+git reset --mixed - Retorna antes da modificação
+git reset --hard - Ignora tudo do commit
+
+git clone "caminha da pasta do github"
 ---------------------------------------------------------------------------------------------------------------------
 obs para o editor VIM
 
@@ -28,4 +38,6 @@ i => entrar no modo de insert
 esc => sair do insert
 ; + w + => vai escrever, salvar e sair
 ---------------------------------------------------------------------------------------------------------------------
+git push origin master -> Levar as mudanças do local para o remoto
+
 
